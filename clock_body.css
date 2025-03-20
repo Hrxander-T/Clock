@@ -1,0 +1,17 @@
+.container{
+  border: 10px solid rgb(158, 155, 151);
+  width: 8rem;
+  border-radius: 4px;
+  height: 100px;
+  background-color: rgb(203, 208, 209);
+  margin:auto;
+  
+
+}
+
+#clock{
+  background-color: rgb(21, 219, 245);
+  position: relative;
+  width:4em;
+  height:4em ;
+}
