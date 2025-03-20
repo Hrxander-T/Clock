@@ -1,17 +1,20 @@
 .container{
-  border: 0.2em solid rgb(158, 155, 151);
+  /* border: 1px inset #E5E5E5;
+  background-color: #4C4237; */
   
-  border-radius: 4px;
-  width:301%;
-  height: 341%;
-  left:1%;
-  grid-row: 4/5;
-  grid-column:6/7;
-  position :relative;
+  border-radius: 0px;
+  container-type: inline-size;
   
+  position :absolute;
+  top: 30.1%;
+  height: 48cqw;
   
-
+  width: 30%;
+  left: 50.8%;
   
+  max-height: 100%;
+  transform:skewX(0.5deg);
+  resize:vertical;
 
 }
 
@@ -21,9 +24,12 @@
   height: 100%;
   width: 100%;
   display: flex;
-  margin-top: 0px;
   justify-content: center;
-  font-size: 200%;
+
+  font-size: 20cqw;
+  color:rgb(134, 99, 78);
+  
+ 
   
   
   
@@ -40,21 +46,29 @@
   position:relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+  
 
 }
 .main-frame{
+  
+  max-width:100%;
   height: 100%;
- 
-  
-  
+  container-type: size;
   background-image:  url(img/white_vase.jpg);
   background-repeat: no-repeat;
   background-position: center;
   aspect-ratio: 3719 /4750;
+
   background-size: contain;
-  display: grid;
-  grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(10, 10%);
+  position: relative;
+ 
   
   
 }  
+@media screen and (max-width: 520px) {
+  .main-frame {
+    /* background-color: lightgreen; */
+    height: 127cqw;
+  }
+}
