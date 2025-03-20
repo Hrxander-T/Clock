@@ -1,17 +1,59 @@
 .container{
-  border: 10px solid rgb(158, 155, 151);
-  width: 8rem;
+  border: 0.2em solid rgb(158, 155, 151);
+  
   border-radius: 4px;
-  height: 100px;
-  background-color: rgb(203, 208, 209);
-  margin:auto;
+  width:301%;
+  height: 341%;
+  left:1%;
+  grid-row: 4/5;
+  grid-column:6/7;
+  position :relative;
+  
+  
+
   
 
 }
 
 #clock{
-  background-color: rgb(21, 219, 245);
-  position: relative;
-  width:4em;
-  height:4em ;
+  
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+  font-size: 200%;
+  
+  
+  
 }
+*{
+  padding: 0;
+  margin: 0;
+}
+.whole-frame{
+  background-color:#e9e8e6 ;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position:relative;
+  display: flex;
+  justify-content: center;
+
+}
+.main-frame{
+  height: calc(100vh);
+  
+  
+  background-image:  url(img/white_vase.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 3719 /4750;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+  
+  
+}  
