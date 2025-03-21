@@ -25,10 +25,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
+  position:absolute;
   font-size: 20cqw;
   color:rgb(134, 99, 78);
-  
+  bottom:20%;
+  align-items: center;
  
   
   
