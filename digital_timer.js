@@ -1,7 +1,4 @@
 
-function myFunction() {
-  alert("Page is loaded");
-}
 function time() {
   const now = new Date();
   let hours = now.getHours() % 12;
